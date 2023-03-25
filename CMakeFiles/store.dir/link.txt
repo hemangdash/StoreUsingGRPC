@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/store.dir/store.cc.o -o bin/store  -lThreads::Threads -lgRPC::grpc++ -lp3protolib 

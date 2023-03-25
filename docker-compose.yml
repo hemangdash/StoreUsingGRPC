@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+    aos:
+        image: cbbond/cs6210-grpc:latest
+        container_name: aos_container
+        tty: true
+        deploy:
+            resources:
+                limits:
+                    cpus: '0.50'
+                    memory: 1024M
+        volumes:
+            - .:/aos/projects:rw
+volumes:
+    aos_projects:
+        external: false
+networks:
+    default:
+        driver: bridge

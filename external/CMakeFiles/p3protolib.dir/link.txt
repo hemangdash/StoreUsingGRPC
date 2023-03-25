@@ -1,0 +1,2 @@
+/usr/bin/ar qc libp3protolib.a  CMakeFiles/p3protolib.dir/protos/store.pb.cc.o CMakeFiles/p3protolib.dir/protos/store.grpc.pb.cc.o CMakeFiles/p3protolib.dir/protos/vendor.pb.cc.o CMakeFiles/p3protolib.dir/protos/vendor.grpc.pb.cc.o
+/usr/bin/ranlib libp3protolib.a
